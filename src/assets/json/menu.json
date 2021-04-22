@@ -1,0 +1,64 @@
+[
+  {
+    "category": "Home",
+    "link": "/"
+  },
+  {
+    "category": "Reveal",
+    "link": "/reveal"
+  },
+  {
+    "category": "Slider",
+    "link": "/slider"
+  },
+  {
+    "category": "Tooltip",
+    "link": "/tooltip"
+  },
+  {
+    "category": "Various Menus",
+    "link": "",
+    "sub": [
+      {
+        "category": "Dropdown Menu",
+        "link": "/dropdownmenu"
+      },
+      {
+        "category": "Drilldown Menu",
+        "link": "/drilldownmenu"
+      },
+      {
+        "category": "Accordion Menu",
+        "link": "/accordionmenu"
+      }
+    ]
+  },
+  {
+    "category": "Magellan",
+    "link": "/magellan"
+  },
+  {
+    "category": "Accordion",
+    "link": "/accordion"
+  },
+  {
+    "category": "Dropdown",
+    "link": "/dropdown"
+  },
+  {
+    "category": "Tabs",
+    "link": "/tabs"
+  },
+  {
+    "category": "Orbit",
+    "link": "/orbit"
+  },
+  {
+    "category": "Form",
+    "link": "/form"
+  },
+  {
+    "category": "Blog",
+    "link": "/blog"
+  }
+]

@@ -1,0 +1,106 @@
+#top {
+  position: absolute;
+  top: 0;
+}
+#content-top {
+  position: absolute;
+  top: 100vh;
+}
+
+/* footer */
+footer {
+  // position: relative;
+  // margin-top: auto;
+  // margin-top: -6rem;
+  background: $primary-color;
+  opacity: 0.9;
+}
+
+.footer {
+  font-family: 'Rounded Mgen+ 1m regular', monospace;
+  color: $white;
+  background: $primary-color;
+  a i {
+    color: $white;
+    &:hover {
+      color: $grey-dark;
+      transition: all 0.5s;
+    }
+  }
+  a,
+  i {
+    transition: all 0.5s;
+  }
+  .transition {
+    transition: all 0.5s;
+  }
+}
+.footer-container {
+  @include xy-grid-container;
+}
+#footer {
+  padding: 0;
+  a.font-bold {
+    color: $white !important;
+    text-decoration: underline;
+    &:hover {
+      color: $silver !important;
+    }
+  }
+
+  .nav-social {
+    @include breakpoint(small) {
+      font-size: 2rem;
+    }
+    @include breakpoint(medium) {
+      font-size: 3rem;
+    }
+    i {
+      color: $white;
+
+      &:hover {
+        color: $grey-dark;
+      }
+    }
+  }
+  .origin {
+    @include breakpoint(small) {
+      // margin-top: 0;
+      // margin-bottom: 0;
+      // font-size: 0.7rem;
+    }
+    @include breakpoint(medium) {
+      // margin-top: 4rem;
+      // margin-bottom: 4rem;
+      // font-size: 0.9rem;
+    }
+
+    color: $white;
+  }
+  .copyright {
+    color: $white;
+    @include breakpoint(small) {
+      // margin-top: -1rem;
+      // margin-bottom: 0;
+      // font-size: 0.7rem;
+    }
+  }
+  @include breakpoint(medium) {
+    // margin-top: 0;
+    // margin-bottom: 3rem;
+    // font-size: 2rem;
+  }
+}
+.back_to_top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 99;
+  & a {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    &:hover {
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
